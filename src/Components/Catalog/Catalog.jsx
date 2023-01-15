@@ -31,7 +31,7 @@ import { Link } from "react-router-dom";
   return (
     <>
 
-  <div className="bg-base">
+  <div className="bg-white">
     <div className=" grid grid-cols-1 gap-5 m-2  sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
     {catalog.map((product) =>(
   <div className="card card-side bg-base card-bordered  shadow-lg shadow-stone-500"  key={product.id}>

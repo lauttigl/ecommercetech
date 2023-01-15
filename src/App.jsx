@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import { initializeApp } from "firebase/app";
 import { Home } from "./Components/Home/Home";
 import {ItemDetail} from './Components/Item/ItemDetail'
+import { CartContextProvider } from "./Components/Context/CartContext";
 
 
 const firebaseConfig = {
@@ -22,7 +23,7 @@ const app = initializeApp(firebaseConfig);
 
 export const App= () => {
   return (
-          
+          <CartContextProvider>
           <BrowserRouter>
           <NavBar/>
           <Routes>
@@ -31,6 +32,7 @@ export const App= () => {
           <Route path='/category/:idCategory' element={<Home/>}/>
           </Routes>
           </BrowserRouter>
+          </CartContextProvider>
           
   );
 }
