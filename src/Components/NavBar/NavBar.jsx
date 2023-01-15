@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
             <Link to='/'><a className="btn btn-ghost font-sans font-lg">My Tech Store</a>
             </Link>
         </div>
-        <div className="form-control">
+        <div className="form-control xs:invisible sm:invisible md:visible ">
             <input
             type="text"
             placeholder="Buscar productos"
