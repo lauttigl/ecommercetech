@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
     export const NavBar = () => {
     return (
-        <div className="navbar bg-gradient-to-r from bg-sky-300 to-white">
+        <div className="navbar bg-gradient-to-r from bg-sky-300 to-white ">
         <div className="flex-1">
             <Link to='/'><a className="btn btn-ghost font-sans font-lg">My Tech Store</a>
             </Link>

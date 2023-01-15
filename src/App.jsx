@@ -2,7 +2,6 @@ import React from "react";
 import { NavBar } from "./Components/NavBar/NavBar";
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import { initializeApp } from "firebase/app";
-import { Catalog } from "./Components/Catalog/Catalog";
 import { Home } from "./Components/Home/Home";
 import {ItemDetail} from './Components/Item/ItemDetail'
 
